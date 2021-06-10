@@ -1,0 +1,31 @@
+{%- extends "layout.html" -%}
+
+{%- block content -%}
+<div class="container">
+    <div class="container">
+        <img src="/assets/euro2020.png" class="w-20 rounded mx-auto d-block" alt="...">
+    </div>
+    <div class="heading">
+        <p>Selection {{ sweepResults['drawPosition'] }} out of 24</p>
+    </div>
+    <div class="fade-in-first">
+      <p>{{ sweepResults['name'] }}</p>
+    </div>
+    
+    <div class="fade-in-second">
+      <p>drew</p>
+    </div>
+    
+    <div class="fade-in-third">
+      <p>{{ sweepResults['team'] }}</p>
+    </div>
+
+    <div class="fade-in-fourth">
+    {% if sweepResults['nextPosition'] == "25" %}
+      <p><a href="/">Next >></a></p>
+    {% else %}
+      <p><a href="/draw/{{ sweepResults['nextPosition'] }}">Next >></a></p>
+    {% endif%}
+    </div>
+</div>
+{%- endblock -%}

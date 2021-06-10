@@ -1,0 +1,195 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0 auto;
+}
+
+
+p {
+    margin: 10px 20px;
+}
+/* First Fade In */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.fade-in-first {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    flex-direction: column;
+    font-family: 'Inter', sans-seriff;
+    font-size: 100px;
+    font-weight: 500;
+    opacity: 0;
+    color: blue;
+    animation: 3s ease 0s normal forwards 1 fadeInFirst;
+    -webkit-animation: 3s ease 0s normal forwards 1 fadeInFirst;
+    -moz-animation: 3s ease 0s normal forwards 1 fadeInFirst;
+    -o-animation: 3s ease 0s normal forwards 1 fadeInFirst;
+    -ms-animation: 3s ease 0s normal forwards 1 fadeInFirst;
+}
+
+@keyframes fadeInFirst {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-moz-keyframes fadeInFirst {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeInFirst {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-o-keyframes fadeInFirst {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+/* Second Fade In */
+
+.fade-in-second {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-seriff;
+    font-size: 24px;
+    text-align: center;
+    opacity: 0;
+    color: black;
+    animation: 3s ease 2s normal forwards 1 fadeInSecond;
+    -webkit-animation: 3s ease 2s normal forwards 1 fadeInSecond;
+    -moz-animation: 3s ease 2s normal forwards 1 fadeInSecond;
+    -o-animation: 3s ease 2s normal forwards 1 fadeInSecond;
+    -ms-animation: 3s ease 2s normal forwards 1 fadeInSecond;
+}
+
+@keyframes fadeInSecond {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-moz-keyframes fadeInSecond {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeInSecond {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-o-keyframes fadeInSecond {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+/* Third Fade In */
+
+.fade-in-third {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-seriff;
+    font-size: 150px;
+    font-weight: 900;
+    text-align: center;
+    opacity: 0;
+    color: black;
+    animation: 3s ease 8s normal forwards 1 fadeInThird;
+    -webkit-animation: 3s ease 8s normal forwards 1 fadeInThird;
+    -moz-animation: 3s ease 8s normal forwards 1 fadeInThird;
+    -o-animation: 3s ease 8s normal forwards 1 fadeInThird;
+    -ms-animation: 3s ease 8s normal forwards 1 fadeInThird;
+}
+
+@keyframes fadeInThird {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-moz-keyframes fadeInThird {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeInThird {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-o-keyframes fadeInThird {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+/* Fourth Fade In */
+
+.fade-in-fourth {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-seriff;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    opacity: 0;
+    color: darkslategrey;
+    animation: 3s ease 10s normal forwards 1 fadeInFourth;
+    -webkit-animation: 3s ease 10s normal forwards 1 fadeInFourth;
+    -moz-animation: 3s ease 10s normal forwards 1 fadeInFourth;
+    -o-animation: 3s ease 10s normal forwards 1 fadeInFourth;
+    -ms-animation: 3s ease 10s normal forwards 1 fadeInFourth;
+}
+
+@keyframes fadeInFourth {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-moz-keyframes fadeInFourth {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeInFourth {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-o-keyframes fadeInFourth {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+a {
+    color: darkslategrey;;
+}
+
+a:hover {
+    color: darkslategrey;;
+}
+
+a:visited {
+    color: darkslategrey;;
+}
+
+.heading {
+    font-family: 'Inter', sans-seriff;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: grey;
+}

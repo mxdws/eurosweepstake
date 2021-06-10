@@ -1,0 +1,30 @@
+{%- extends "layout.html" -%}
+
+{%- block content -%}
+<div class="container w-3/4">
+    <div class="container">
+        <img src="/assets/euro2020.png" class="w-20 rounded mx-auto d-block" alt="...">
+    </div>
+    <div>
+        <p class="h1">Euro2020 Family Sweepstake</p>
+    </div>
+    <table class="table">
+        <thead>
+            <tr class="bg-emerald-200">
+              <th class="w-1/4 ...">#</th>
+              <th class="w-1/4 ...">Name</th>
+              <th class="w-1/2 ...">Team</th>
+              <th class="w-1/4 ...">Status</th>
+            </tr>
+        </thead>
+        {% for s in sweepResults %}
+        <tr>
+            <td>{{ s['drawPosition']}}</td>
+            <td>{{ s['name']}}</td>
+            <td>{{ s['team']}}</td>
+            <td>{{ s['status']}}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</div>
+{%- endblock -%}
