@@ -59,11 +59,11 @@ count = 0
 for (t,n) in sstake:
 	count += 1
 	nextCount = count + 1
-	# print(n, end="")
+	print(n, end="")
 	# sleep(1)
-	# print("...", end="")
+	print("...", end="")
 	# input()
-	# print(t)
+	print(t)
 	# input()
 	
 	result = {
