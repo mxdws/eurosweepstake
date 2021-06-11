@@ -107,11 +107,11 @@ p {
     text-align: center;
     opacity: 0;
     color: black;
-    animation: 3s ease 8s normal forwards 1 fadeInThird;
-    -webkit-animation: 3s ease 8s normal forwards 1 fadeInThird;
-    -moz-animation: 3s ease 8s normal forwards 1 fadeInThird;
-    -o-animation: 3s ease 8s normal forwards 1 fadeInThird;
-    -ms-animation: 3s ease 8s normal forwards 1 fadeInThird;
+    animation: 3s ease 6s normal forwards 1 fadeInThird;
+    -webkit-animation: 3s ease 6s normal forwards 1 fadeInThird;
+    -moz-animation: 3s ease 6s normal forwards 1 fadeInThird;
+    -o-animation: 3s ease 6s normal forwards 1 fadeInThird;
+    -ms-animation: 3s ease 6s normal forwards 1 fadeInThird;
 }
 
 @keyframes fadeInThird {
@@ -147,11 +147,11 @@ p {
     text-align: center;
     opacity: 0;
     color: darkslategrey;
-    animation: 3s ease 10s normal forwards 1 fadeInFourth;
-    -webkit-animation: 3s ease 10s normal forwards 1 fadeInFourth;
-    -moz-animation: 3s ease 10s normal forwards 1 fadeInFourth;
-    -o-animation: 3s ease 10s normal forwards 1 fadeInFourth;
-    -ms-animation: 3s ease 10s normal forwards 1 fadeInFourth;
+    animation: 3s ease 8s normal forwards 1 fadeInFourth;
+    -webkit-animation: 3s ease 8s normal forwards 1 fadeInFourth;
+    -moz-animation: 3s ease 8s normal forwards 1 fadeInFourth;
+    -o-animation: 3s ease 8s normal forwards 1 fadeInFourth;
+    -ms-animation: 3s ease 8s normal forwards 1 fadeInFourth;
 }
 
 @keyframes fadeInFourth {
