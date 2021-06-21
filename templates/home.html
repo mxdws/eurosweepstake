@@ -18,12 +18,21 @@
             </tr>
         </thead>
         {% for s in sweepResults %}
-        <tr>
-            <td>{{ s['drawPosition']}}</td>
-            <td>{{ s['name']}}</td>
-            <td>{{ s['team']}}</td>
-            <td>{{ s['status']}}</td>
-        </tr>
+        {% if s['status'] == 'Out' %}
+            <tr class="text-gray-400">
+                <td>{{ s['drawPosition']}}</td>
+                <td>{{ s['name']}}</td>
+                <td>{{ s['team']}}</td>
+                <td>{{ s['status']}}</td>
+            </tr>
+        {% else %}
+            <tr class="text-black">
+                <td>{{ s['drawPosition']}}</td>
+                <td>{{ s['name']}}</td>
+                <td>{{ s['team']}}</td>
+                <td>{{ s['status']}}</td>
+            </tr>
+        {% endif %}
         {% endfor %}
     </table>
 </div>
