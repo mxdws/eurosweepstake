@@ -4,7 +4,7 @@
         "nextPosition": "2",
         "name": "Dave",
         "team": "Slovakia",
-        "status": "In"
+        "status": "Out"
     },
     {
         "drawPosition": "2",
@@ -95,7 +95,7 @@
         "nextPosition": "15",
         "name": "Livvy",
         "team": "Hungary",
-        "status": "In"
+        "status": "Out"
     },
     {
         "drawPosition": "15",
@@ -116,7 +116,7 @@
         "nextPosition": "18",
         "name": "Anabelle",
         "team": "Finland",
-        "status": "In"
+        "status": "Out"
     },
     {
         "drawPosition": "18",
